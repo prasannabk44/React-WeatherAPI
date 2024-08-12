@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../src/Images/moutains-8445767_1280.jpg");
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+.row{
+  width: 80%;
+  max-width: 100%;
+  box-shadow: 0px 0px 10px 0px rgb(165, 164, 164);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
+  row-gap: 20px;
+  border-radius: 20px;
+  padding: 40px;
+  background: #0000001c;
+}
+
+input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.addinput{
+  display: flex;
+}
+.mb-3{
+  box-shadow: 0px 0px 10px 0px rgb(240, 206, 206);
+  background-color: rgb(255, 255, 255);
+}
+
+h1,h5{
+  text-align: center;
+  /* color: rgb(99, 43, 43); */
+  text-shadow: 0px 4px black;
+}
+h1::first-letter{
+  color:red;
+}
+h6:first-line{
+  color: rgb(83, 3, 3);
+}
+
+.card{
+  box-shadow: 0px 0px 10px 0px rgb(22, 20, 20);
+  width: 300px;
+  height: 270px;
+  padding: 0px;
+}
+.card-img{
+  width: 300px;
+    height: 225px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
